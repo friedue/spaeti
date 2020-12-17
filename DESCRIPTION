@@ -1,0 +1,30 @@
+Package: spaeti
+Type: Package
+Title: Functions for working with 10X Visium Data.
+Version: 0.1.0
+Author: person("Applied Bioinformatics Core", "WCM", email = "abc@med.cornell.edu", role = c("aut", "cre"))
+Maintainer: Friederike Dündar <frd2007@med.cornell.edu> 
+Description: Various functions to read in and visualize 10X Visium data sets.
+Imports:
+    future,
+    ggplot2,
+    grid,
+    magrittr,
+    patchwork,
+    SingleCellExperiment,
+    sp,
+    spatstat,
+    SummarizedExperiment
+Suggests:
+    BiocStyle,
+    knitr,
+    magick,
+    readbitmap,
+    rjson,
+    rmarkdown,
+    tibble
+License: MIT
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
